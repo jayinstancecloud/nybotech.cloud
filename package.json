@@ -1,20 +1,17 @@
 {
   "name": "nybotech.cloud",
   "version": "1.0.0",
-  "description": "NYBOTECH medical technology storefront",
+  "private": true,
+  "description": "NYBOTECH medical technology storefront (Next.js)",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [
-    "nybotech",
-    "medical",
-    "store"
-  ],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "vite": "^6.0.0"
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   }
 }
