@@ -270,11 +270,11 @@ a:hover {
     radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.18), rgba(15, 23, 42, 0.98));
   border: 1px solid rgba(148, 163, 184, 0.45);
   box-shadow: var(--shadow-subtle);
-  max-width: 360px;
+  max-width: 460px;
 }
 
 .hero-side-image {
-  padding: 0.5rem;
+  padding: 0.35rem;
   background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.12), transparent 60%),
     radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.12), rgba(15, 23, 42, 0.98));
 }
